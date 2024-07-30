@@ -1,0 +1,22 @@
+#tab-button {
+    font-family: "Roboto Condensed", sans-serif;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    color: #a18aba;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 0.5rem 1rem;
+}
+
+#tab-button:hover {
+    background-color: #1b082f;
+    color: #ebe7ef;
+}
+
+#tab-button.active {
+    background-color: #7925d3;
+    color: #ebe7ef;
+}

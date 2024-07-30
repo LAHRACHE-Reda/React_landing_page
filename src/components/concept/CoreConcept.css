@@ -1,0 +1,22 @@
+#core-concept {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    text-align: center;
+}
+
+#core-concept img {
+    height: 4rem;
+    width: 6rem;
+    object-fit: cover;
+}
+
+#core-concept h3 {
+    font-weight: 900;
+}
+
+#core-concept p {
+    font-size: 0.9rem;
+}

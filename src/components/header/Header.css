@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+header img {
+    height: 5rem;
+    width: 10rem;
+    object-fit: cover;
+    transition-duration: 0.3s;
+}
+
+header img:hover {
+    filter: drop-shadow(4px 4px 4px rgba(69, 113, 231, 0.64));
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 5rem;
+    background: var(--text_gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+}
+
+header p {
+    margin: 0;
+    font-size: 1.25rem;
+    color: var(--paragraph-color);
+    font-family: "Roboto Condensed", sans-serif;
+}
